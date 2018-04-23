@@ -1,3 +1,5 @@
+// i don't understand this page
+
 let departments = [];
 let items = [];
 const cart = [];

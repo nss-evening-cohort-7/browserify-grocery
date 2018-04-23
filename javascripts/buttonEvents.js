@@ -1,3 +1,4 @@
+// gatekeeper is success and fail functions
 const dataGatekeeper = require('./dataGatekeeper');
 
 const goToDepartments = document.getElementById('go-to-departments');
@@ -16,6 +17,7 @@ const cartButton = () => {
   });
 };
 
+// when depts btn is clicked empty strings are added to each div...???
 const departmentsButton = () => {
   goToDepartments.addEventListener('click', () => {
     departmentsDiv.innerHTML = '';
